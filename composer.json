@@ -3,6 +3,15 @@
     "description": "Quickstart recipe for SilverStripe 4 projects.",
     "type": "silverstripe-recipe",
     "license": "BSD-3-Clause",
+    "repositories": {
+        "sheadawson/silverstripe-linkable": {
+            "type": "vcs",
+            "url": "https://github.com/jellygnite/silverstripe-linkable.git",
+            "options": {
+                "symlink": false
+            }
+        }
+    },
     "require": {
         "silverstripe/recipe-plugin": "^1.2",
         "symbiote/silverstripe-gridfieldextensions": "^3.2",
@@ -11,13 +20,14 @@
         "silverstripe/spamprotection": "^3.0",
         "undefinedoffset/silverstripe-nocaptcha": "^2.1",
         "silverstripe/blog": "^3.5",
-        "sheadawson/silverstripe-linkable": "^2.0",
+        "sheadawson/silverstripe-linkable": "dev-hotfix as 2.0",
         "axllent/silverstripe-cms-tweaks": "^2.2",
         "silverstripers/elemental-search": "dev-master",
         "kub-at/php-simple-html-dom-parser": "^1.9",
         "axllent/silverstripe-trailing-slash": "^2.2",
         "wilr/silverstripe-googlesitemaps": "^2.1",
         "jonom/silverstripe-text-target-length": "^2.0",
+        "jellygnite/silverstripe-admin-toggle-checkbox": "dev-master",
         "jellygnite/silverstripe-elemental-style": "dev-master",
         "jellygnite/silverstripe-elements": "dev-master",
         "jellygnite/silverstripe-enhance": "dev-master",
